@@ -23,5 +23,5 @@ int main(int argc, char *argv[])
     
 }
 
-// *p -> p adresindeki değişkeni ifade eder ve biz bu değişkeni değiştiririz.
-// memorydeki adres değişmez.
+// *p -> represents the variable located at address p in memory and we change these variables.
+// The address does not change.
