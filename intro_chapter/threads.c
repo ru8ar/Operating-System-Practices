@@ -3,6 +3,13 @@
 #include "common.h"
 #include "common_threads.h"
 
+/* This example is about CONCURRENCY. When two threads share the same memory space and they change the value at the same time sometimes there could 
+be a collision and the result could be unexpected. In this example if you give some number like 150000 and run it multiple times the result won't be 
+same */
+
+/*after compile the program you can run it as -> ./threads 1500000 
+I used gcc to compile the code*/
+
 volatile int counter = 0;  //? WHAT IS VOLATILE -> This variable may change in ways you (the compiler) don’t expect. Always fetch it fresh from memory.
 int loops;
 
