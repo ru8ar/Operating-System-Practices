@@ -3,7 +3,7 @@
 #include "common.h"
 #include "common_threads.h"
 
-volatile int counter = 0;  //? WHAT IS VOLATILE
+volatile int counter = 0;  //? WHAT IS VOLATILE -> This variable may change in ways you (the compiler) don’t expect. Always fetch it fresh from memory.
 int loops;
 
 void *worker(void *arg){
