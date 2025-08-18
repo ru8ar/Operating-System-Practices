@@ -5,6 +5,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
+//A Program That Does I/O
 
 int main(int argc, char *argv[]) {
     int fd = open ("/tmp/file",
