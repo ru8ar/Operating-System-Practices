@@ -6,6 +6,9 @@
 #include <assert.h>
 #include "common.h"
 
+/* " gcc -o cpu cpu.c -Wall" use this command to compile it and then you can run the program with this command ->  ./cpu "A"   
+*/
+
 int main(int argc, char *argv[])
 {
     if(argc != 2){
